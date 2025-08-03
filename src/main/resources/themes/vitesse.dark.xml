@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scheme name="Vitesse Dark Soft" parent_scheme="Darcula" version="1">
+<scheme name="Vitesse Dark" parent_scheme="Darcula" version="1">
     <colors>
         <option name="ADDED_LINES_COLOR" value="#4d9375"/>
         <option name="GUTTER_BACKGROUND" value="#222222"/>
@@ -35,7 +35,7 @@
         <option name="PROMOTION_PANE" value="#292929"/>
         <option name="QUESTION_HINT" value="#e6cc77"/>
         <option name="RECENT_LOCATIONS_SELECTION" value="#292929"/>
-        <option name="RIGHT_MARGIN_COLOR" value="#dedcd550"/>
+        <option name="RIGHT_MARGIN_COLOR" value="#dedcd520"/>
         <option name="SELECTED_INDENT_GUIDE" value="#4d9375"/>
         <option name="ScrollBar.Mac.hoverThumbColor" value="#dedcd550"/>
         <option name="ScrollBar.Mac.thumbColor" value="#dedcd510"/>
@@ -44,9 +44,9 @@
         <option name="VCS_ANNOTATIONS_COLOR_3" value="#e6cc77"/>
         <option name="VCS_ANNOTATIONS_COLOR_4" value="#cb7676"/>
         <option name="VCS_ANNOTATIONS_COLOR_5" value="#d4976c"/>
-        <option name="VISUAL_INDENT_GUIDE" value="#dedcd550"/>
-        <option name="WHITESPACES" value="#dedcd550"/>
-        <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="#dedcd550"/>
+        <option name="VISUAL_INDENT_GUIDE" value="#dedcd520"/>
+        <option name="WHITESPACES" value="#dedcd520"/>
+        <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="#dedcd530"/>
     </colors>
     <attributes>
         <option name="TEXT">

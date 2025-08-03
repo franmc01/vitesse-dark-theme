@@ -1,7 +1,7 @@
 {
-  "name": "Vitesse Dark Soft",
+  "name": "Vitesse Dark",
   "dark": true,
-  "editorScheme": "/themes/vitesse.dark.soft.xml",
+  "editorScheme": "/themes/vitesse.dark.xml",
   "author": "franmc01",
   "ui": {
     "*": {
@@ -15,7 +15,7 @@
       "lightSelectionBackground": "#292929",
       "hoverBackground": "#292929",
       "selectionForeground": "#dbd7caee",
-      "selectionBackground": "#22222215",
+      "selectionBackground": "#292929",
       "selectionInactiveForeground": "#dbd7caee",
       "selectionInactiveBackground": "#22222215",
       "focusColor": "#4d937580",
@@ -49,7 +49,12 @@
       "secondaryForeground": "#dedcd590"
     },
     "Notification": {
-      "linkForeground": "#4d9375"
+      "background": "#292929",
+      "borderColor": "#252525",
+      "errorBackground": "#cb767620",
+      "errorBorderColor": "#cb7676",
+      "warningBackground": "#e6cc7720",
+      "warningBorderColor": "#e6cc77"
     },
     "GotItTooltip": {
       "linkForeground": "#4d9375",
@@ -108,8 +113,8 @@
       "borderColor": "#252525"
     },
     "SearchMatch": {
-      "startBackground": "#e6cc7744",
-      "endBackground": "#e6cc7744"
+      "startBackground": "#4d937544",
+      "endBackground": "#4d937544"
     },
     "SearchEverywhere": {
       "Tab": {
@@ -128,18 +133,44 @@
       "background": "#222222"
     },
     "Tree": {
+      "rowHeight": 24,
+      "indent": 20,
+      "cellHeight": 24,
+      "iconRowGap": 6,
       "background": "#222222",
       "foreground": "#dbd7caee",
       "selectionBackground": "#292929",
       "selectionForeground": "#dbd7caee"
     },
+    "FileTree": {
+      "indent": 20,
+      "iconRowGap": 6
+    },
     "Menu": {
       "separatorColor": "#252525"
+    },
+    "EditorTabs": {
+      "selectedBackground": "#222222",
+      "hoverBackground": "#292929",
+      "inactiveColoredFileBackground": "#222222",
+      "underlineColor": "#4d9375",
+      "underlinedTabBackground": "#222222",
+      "underlineHeight": 2
+    },
+    "Breadcrumbs": {
+      "background": "#222222",
+      "borderColor": "#252525",
+      "foreground": "#dbd7caee",
+      "hoverBackground": "#292929",
+      "current": {
+        "background": "#292929",
+        "foreground": "#dbd7caee"
+      }
     },
     "MenuItem": {
       "background": "#222222",
       "foreground": "#dbd7caee",
-      "selectionBackground": "#22222215",
+      "selectionBackground": "#292929",
       "selectionForeground": "#dbd7caee"
     },
     "CheckBox": {

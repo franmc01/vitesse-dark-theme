@@ -1,7 +1,7 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.franmc01.vitessethemeidea</id>
-    <name>vitesse-theme-idea</name>
+    <id>com.github.franmc01.vitessedarktheme</id>
+    <name>vitesse-dark-theme</name>
     <vendor>franmc01</vendor>
 
     <depends>com.intellij.modules.platform</depends>
@@ -9,7 +9,6 @@
 <!--    <resource-bundle>messages.MyBundle</resource-bundle>-->
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="com.github.franmc01.vitessethemeidea.light.soft" path="/themes/vitesse.light.soft.theme.json" />
-        <themeProvider id="com.github.franmc01.vitessethemeidea.dark.soft" path="/themes/vitesse.dark.soft.theme.json" />
+        <themeProvider id="com.github.franmc01.vitessedarktheme.dark" path="/themes/vitesse.dark.theme.json" />
     </extensions>
 </idea-plugin>
