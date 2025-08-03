@@ -1,65 +1,58 @@
-<h1 align="center">🌓 Vitesse Dark Theme for IntelliJ</h1>
+# 🏕️ Vitesse Dark Theme for JetBrains IDEs
 
-<p align="center">
-<!-- Plugin description -->
-A minimalist and soft dark theme for JetBrains IDEs.<br>
-Carefully tuned to reduce noise, emphasize clarity, and stay out of your way.
-<!-- Plugin description end -->
-</p>
+**Code in peace. Stay in flow.**  
+A calm and minimal dark theme for focused developers.
 
-<p align="center">
-<a href="https://plugins.jetbrains.com/plugin/com.github.franmc01.vitessedarktheme">
-  <img src="https://plugins.jetbrains.com/plugin/28084-vitesse-dark-theme/versions?noRedirect=true" alt="JetBrains Plugin" />
-</a>
-</p>
+[![JetBrains Plugin](https://img.shields.io/jetbrains/plugin/v/28084-vitesse-dark-theme?style=for-the-badge&label=JetBrains%20Plugin&logo=jetbrains)](https://plugins.jetbrains.com/plugin/28084-vitesse-dark-theme)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/28084-vitesse-dark-theme?style=for-the-badge&label=Downloads)](https://plugins.jetbrains.com/plugin/28084-vitesse-dark-theme)
+[![GitHub Stars](https://img.shields.io/github/stars/franmc01/vitesse-dark-theme?style=for-the-badge&logo=github)](https://github.com/franmc01/vitesse-dark-theme)
 
 ---
 
-## 🎨 About
+## 🎨 Overview
 
-**vitesse-dark-theme** is a carefully crafted adaptation of the original Vitesse aesthetics — reimagined and rebuilt natively for the IntelliJ platform.
+**Vitesse Dark Theme** is a JetBrains-native interpretation of the beloved [Vitesse palette](https://github.com/antfu/vitesse) — refined for developers who value visual calm, balance, and focus.
 
-This theme brings:
+### ✨ Why You'll Love It
 
-- A uniform deep background (`#222222`) that blends editor and tabs
-- Soft green highlights, balanced warm tones, and zero clutter
-- Subtle tab selection indicators for better focus
-- Seamless integration with JetBrains UI, without external plugins
+- 🪵 Deep charcoal background (`#222222`) to reduce noise
+- 🔦 Soft green highlights and warm accent tones
+- 🧭 Subtle visual cues for navigation and selection
+- 🌲 Seamless integration with JetBrains UI
 
 ---
 
 ## 🖼️ Preview
 
-<!-- Replace with your actual screenshot URL -->
-<img width="1275" alt="Vitesse Dark Screenshot" src="./demo.png">
+![Preview](./demo.png)
 
 ---
 
-## 💬 Fonts That Fit
+## 🔤 Perfect Font Matches
 
 Works beautifully with:
 
 - [Dank Mono](https://dank.sh/)
 - [Fira Code](https://github.com/tonsky/FiraCode)
-- [CaskaydiaCove](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaCode)
+- [CaskaydiaCove Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaCode)
 
 ---
 
 ## 🚀 Installation
 
 1. Open any JetBrains IDE
-2. Go to **Settings → Plugins → Marketplace**
+2. Go to `Settings → Plugins → Marketplace`
 3. Search for `vitesse-dark-theme`
-4. Click **Install**, then restart
-5. Apply the theme via **Settings → Appearance & Behavior → Appearance**
+4. Click **Install**, restart your IDE
+5. Apply the theme via `Settings → Appearance & Behavior → Appearance`
 
 ---
 
 ## 🤍 Credits
 
-- Visual inspiration from [Vitesse](https://github.com/antfu/vitesse) by [@antfu](https://github.com/antfu)
-- Crafted for JetBrains by [franmc01](https://github.com/franmc01)
-- Built on top of the [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+- Inspired by [Vitesse](https://github.com/antfu/vitesse) by [@antfu](https://github.com/antfu)
+- Created by [@franmc01](https://github.com/franmc01)
+- Built on top of the [JetBrains Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
 
 ---
 
@@ -69,4 +62,6 @@ MIT © 2025 [franmc01](https://github.com/franmc01)
 
 ---
 
-<p align="center"><code>Focus, breathe, and build. 🏕</code></p>
+<div align="center">
+  <code>Breathe. Focus. Build. 🏕️</code>
+</div>

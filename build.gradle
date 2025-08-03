@@ -1,0 +1,61 @@
+plugins {
+    id 'org.jetbrains.intellij' version '1.17.3'
+    id 'java'
+}
+
+group = 'com.github.franmc01.vitessedarktheme'
+version = '0.0.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // No tests needed for theme-only plugin, but leaving this harmless
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+}
+
+intellij {
+    version = '2025.1'
+    type = 'IC'
+    pluginName = 'vitesse-dark-theme'
+}
+
+patchPluginXml {
+    sinceBuild = '243'
+    untilBuild = '252.*'
+
+    changeNotes = """
+<h1>🏕️ Vitesse Dark Theme – Version 0.0.1</h1>
+
+<p><strong>📅 Release Date:</strong> August 3, 2025</p>
+
+<h2>✨ Highlights</h2>
+<ul>
+  <li>🖤 Deep charcoal background and soft focus indicators</li>
+  <li>🎯 High-contrast UI accents inspired by the Vitesse palette</li>
+  <li>🌿 Designed for clarity, minimalism, and long coding sessions</li>
+</ul>
+
+<h2>🌕 Looking for something softer?</h2>
+<p>Check out <strong><a href="https://plugins.jetbrains.com/plugin/28185-moonlight-theme" target="_blank">Moonlight Dark Theme</a></strong> — another calm and elegant option for night coding.</p>
+
+<p>Made with ☕ and passion by <a href="https://github.com/franmc01" target="_blank">franmc01</a></p>
+"""
+
+    description = """
+<p><strong>Vitesse Dark Theme</strong> is a sleek, minimalistic dark theme for JetBrains IDEs — crafted for clarity, contrast, and deep focus.</p>
+<ul>
+  <li>⚡ Inspired by Anthony Fu’s legendary Vitesse palette</li>
+  <li>🎯 Clean UI with precise accent colors</li>
+  <li>✅ Fully compatible with IntelliJ IDEA 2025.1+</li>
+</ul>
+"""
+}
+
+test {
+    useJUnitPlatform()
+}
+
+tasks.buildSearchableOptions.enabled = false
