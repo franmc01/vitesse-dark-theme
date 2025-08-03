@@ -1,14 +1,15 @@
-<!-- Plugin description -->
 <h1 align="center">🌓 Vitesse Dark Theme for IntelliJ</h1>
 
 <p align="center">
+<!-- Plugin description -->
 A minimalist and soft dark theme for JetBrains IDEs.<br>
 Carefully tuned to reduce noise, emphasize clarity, and stay out of your way.
+<!-- Plugin description end -->
 </p>
 
 <p align="center">
 <a href="https://plugins.jetbrains.com/plugin/com.github.franmc01.vitessedarktheme">
-  <img src="https://img.shields.io/jetbrains/plugin/v/com.github.franmc01.vitessedarktheme?color=4d9375&label=JetBrains%20Marketplace&logo=intellij-idea" alt="JetBrains Plugin" />
+  <img src="https://plugins.jetbrains.com/plugin/28084-vitesse-dark-theme/versions?noRedirect=true" alt="JetBrains Plugin" />
 </a>
 </p>
 
@@ -69,4 +70,3 @@ MIT © 2025 [franmc01](https://github.com/franmc01)
 ---
 
 <p align="center"><code>Focus, breathe, and build. 🏕</code></p>
-<!-- Plugin description end -->
